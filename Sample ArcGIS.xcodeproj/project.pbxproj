@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293338571A0091A3005FAECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 293338561A0091A3005FAECB /* main.m */; };
+		2933385A1A0091A3005FAECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 293338591A0091A3005FAECB /* AppDelegate.m */; };
+		2933385D1A0091A3005FAECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2933385C1A0091A3005FAECB /* ViewController.m */; };
+		293338601A0091A3005FAECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2933385E1A0091A3005FAECB /* Main.storyboard */; };
+		293338621A0091A3005FAECB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293338611A0091A3005FAECB /* Images.xcassets */; };
+		293338651A0091A3005FAECB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 293338631A0091A3005FAECB /* LaunchScreen.xib */; };
+		293338711A0091A3005FAECB /* Sample_ArcGISTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293338701A0091A3005FAECB /* Sample_ArcGISTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2933386B1A0091A3005FAECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293338491A0091A3005FAECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293338501A0091A3005FAECB;
+			remoteInfo = "Sample ArcGIS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293338511A0091A3005FAECB /* Sample ArcGIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample ArcGIS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293338551A0091A3005FAECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293338561A0091A3005FAECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		293338581A0091A3005FAECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		293338591A0091A3005FAECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2933385B1A0091A3005FAECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2933385C1A0091A3005FAECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2933385F1A0091A3005FAECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		293338611A0091A3005FAECB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		293338641A0091A3005FAECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2933386A1A0091A3005FAECB /* Sample ArcGISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample ArcGISTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2933386F1A0091A3005FAECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293338701A0091A3005FAECB /* Sample_ArcGISTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_ArcGISTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2933384E1A0091A3005FAECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293338671A0091A3005FAECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293338481A0091A3005FAECB = {
+			isa = PBXGroup;
+			children = (
+				293338531A0091A3005FAECB /* Sample ArcGIS */,
+				2933386D1A0091A3005FAECB /* Sample ArcGISTests */,
+				293338521A0091A3005FAECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293338521A0091A3005FAECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293338511A0091A3005FAECB /* Sample ArcGIS.app */,
+				2933386A1A0091A3005FAECB /* Sample ArcGISTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293338531A0091A3005FAECB /* Sample ArcGIS */ = {
+			isa = PBXGroup;
+			children = (
+				293338581A0091A3005FAECB /* AppDelegate.h */,
+				293338591A0091A3005FAECB /* AppDelegate.m */,
+				2933385B1A0091A3005FAECB /* ViewController.h */,
+				2933385C1A0091A3005FAECB /* ViewController.m */,
+				2933385E1A0091A3005FAECB /* Main.storyboard */,
+				293338611A0091A3005FAECB /* Images.xcassets */,
+				293338631A0091A3005FAECB /* LaunchScreen.xib */,
+				293338541A0091A3005FAECB /* Supporting Files */,
+			);
+			path = "Sample ArcGIS";
+			sourceTree = "<group>";
+		};
+		293338541A0091A3005FAECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				293338551A0091A3005FAECB /* Info.plist */,
+				293338561A0091A3005FAECB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2933386D1A0091A3005FAECB /* Sample ArcGISTests */ = {
+			isa = PBXGroup;
+			children = (
+				293338701A0091A3005FAECB /* Sample_ArcGISTests.m */,
+				2933386E1A0091A3005FAECB /* Supporting Files */,
+			);
+			path = "Sample ArcGISTests";
+			sourceTree = "<group>";
+		};
+		2933386E1A0091A3005FAECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2933386F1A0091A3005FAECB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293338501A0091A3005FAECB /* Sample ArcGIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293338741A0091A3005FAECB /* Build configuration list for PBXNativeTarget "Sample ArcGIS" */;
+			buildPhases = (
+				2933384D1A0091A3005FAECB /* Sources */,
+				2933384E1A0091A3005FAECB /* Frameworks */,
+				2933384F1A0091A3005FAECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample ArcGIS";
+			productName = "Sample ArcGIS";
+			productReference = 293338511A0091A3005FAECB /* Sample ArcGIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293338691A0091A3005FAECB /* Sample ArcGISTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293338771A0091A3005FAECB /* Build configuration list for PBXNativeTarget "Sample ArcGISTests" */;
+			buildPhases = (
+				293338661A0091A3005FAECB /* Sources */,
+				293338671A0091A3005FAECB /* Frameworks */,
+				293338681A0091A3005FAECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2933386C1A0091A3005FAECB /* PBXTargetDependency */,
+			);
+			name = "Sample ArcGISTests";
+			productName = "Sample ArcGISTests";
+			productReference = 2933386A1A0091A3005FAECB /* Sample ArcGISTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293338491A0091A3005FAECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Simple Track";
+				TargetAttributes = {
+					293338501A0091A3005FAECB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					293338691A0091A3005FAECB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 293338501A0091A3005FAECB;
+					};
+				};
+			};
+			buildConfigurationList = 2933384C1A0091A3005FAECB /* Build configuration list for PBXProject "Sample ArcGIS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293338481A0091A3005FAECB;
+			productRefGroup = 293338521A0091A3005FAECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293338501A0091A3005FAECB /* Sample ArcGIS */,
+				293338691A0091A3005FAECB /* Sample ArcGISTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2933384F1A0091A3005FAECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293338601A0091A3005FAECB /* Main.storyboard in Resources */,
+				293338651A0091A3005FAECB /* LaunchScreen.xib in Resources */,
+				293338621A0091A3005FAECB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293338681A0091A3005FAECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2933384D1A0091A3005FAECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2933385D1A0091A3005FAECB /* ViewController.m in Sources */,
+				2933385A1A0091A3005FAECB /* AppDelegate.m in Sources */,
+				293338571A0091A3005FAECB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293338661A0091A3005FAECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293338711A0091A3005FAECB /* Sample_ArcGISTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2933386C1A0091A3005FAECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293338501A0091A3005FAECB /* Sample ArcGIS */;
+			targetProxy = 2933386B1A0091A3005FAECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2933385E1A0091A3005FAECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2933385F1A0091A3005FAECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		293338631A0091A3005FAECB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293338641A0091A3005FAECB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293338721A0091A3005FAECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		293338731A0091A3005FAECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293338751A0091A3005FAECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sample ArcGIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		293338761A0091A3005FAECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sample ArcGIS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		293338781A0091A3005FAECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sample ArcGISTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample ArcGIS.app/Sample ArcGIS";
+			};
+			name = Debug;
+		};
+		293338791A0091A3005FAECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sample ArcGISTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample ArcGIS.app/Sample ArcGIS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2933384C1A0091A3005FAECB /* Build configuration list for PBXProject "Sample ArcGIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293338721A0091A3005FAECB /* Debug */,
+				293338731A0091A3005FAECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293338741A0091A3005FAECB /* Build configuration list for PBXNativeTarget "Sample ArcGIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293338751A0091A3005FAECB /* Debug */,
+				293338761A0091A3005FAECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		293338771A0091A3005FAECB /* Build configuration list for PBXNativeTarget "Sample ArcGISTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293338781A0091A3005FAECB /* Debug */,
+				293338791A0091A3005FAECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293338491A0091A3005FAECB /* Project object */;
+}
